@@ -24,13 +24,15 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Expenses items={expenses}/>
-      </header>
-    </div>
-  );
+
+  return React.createElement('div',{},React.createElement('h2',{}, ), );
+  // return (
+  //   <div className="App">
+  //     <header className="App-header">
+  //       <Expenses items={expenses}/>
+  //     </header>
+  //   </div>
+  // );
 }
 
 export default App;
