@@ -1,6 +1,6 @@
 import "./App.css";
+import React from "react";
 import Expenses from "./components/Expenses";
-
 
 function App() {
   const expenses = [
@@ -25,14 +25,14 @@ function App() {
     },
   ];
 
-  return React.createElement('div',{},React.createElement('h2',{}, ), );
-  // return (
-  //   <div className="App">
-  //     <header className="App-header">
-  //       <Expenses items={expenses}/>
-  //     </header>
-  //   </div>
-  // );
+  // return React.createElement('div',{},React.createElement('h2',{},'Let\'s get started'),React.createElement(Expenses,{items: expenses}));
+  return (
+    <div className="App">
+      <header className="App-header">
+        <Expenses items={expenses} />
+      </header>
+    </div>
+  );
 }
 
 export default App;
