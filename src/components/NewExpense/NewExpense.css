@@ -1,5 +1,5 @@
 .new-expense {
-  background-color: #509c7d;
+  background-color: rgb(101, 143, 66,0.7);
   padding: 1rem;
   margin: 2rem auto;  
   width: 50rem;
@@ -13,8 +13,8 @@
   font: inherit;
   cursor: pointer;
   padding: 1rem 2rem;
-  border: 1px solid #40005d;
-  background-color: #005d2a;
+  border: 1px solid #050007;
+  background-color: rgb(7, 7, 32, 0.8);
   color: white;
   border-radius: 12px;
   margin-right: 1rem;
